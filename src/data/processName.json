@@ -1,0 +1,44 @@
+{
+    "process":[
+        {
+            "nameGroup":"BackOffice",
+            "nameProcess":["Reference data", "Manage orders"],
+            "id":"1"
+        },
+        {
+            "nameGroup":"Billing",
+            "nameProcess":["Current account", "Invoice format"],
+            "id":"2"
+        },
+        {
+            "nameGroup":"Communications",
+            "nameProcess":["Usage history "],
+            "id":"3"
+        },
+        {
+            "nameGroup":"Customer support",
+            "nameProcess":["Contact information", "Create lead"],
+            "id":"4"
+        },
+        {
+            "nameGroup":"Equipment",
+            "nameProcess":["OTA", "Repair Request"],
+            "id":"5"
+        },
+        {
+            "nameGroup":"Sales",
+            "nameProcess":["Campaign", "Sales"],
+            "id":"6"
+        },
+        {
+            "nameGroup":"Service management",
+            "nameProcess":["Change ownership", "Manage components"],
+            "id":"7"
+        },
+        {
+            "nameGroup":"Top-ups",
+            "nameProcess":["Top-up", "Recurring"],
+            "id":"8"
+        }
+      ]
+    }

@@ -1,0 +1,19 @@
+{
+"login":[
+    {
+        "username":"ufeadmin",
+        "password":"12345",
+        "name":"UFE Administrator"
+    },
+    {
+        "username":"nataliar",
+        "password":"12345",
+        "name":"Natália Rolim"
+    },
+    {
+        "username":"joaobarroso",
+        "password":"123456",
+        "name":"João Barroso"
+    }
+  ]
+}
