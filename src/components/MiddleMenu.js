@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import SideBarMenu from './SideBarMenu';
 import Tab from './Tab';
+import firebaseConfig from './Firebase/firebase';
 
 const MiddleMenu = (props) =>{
 
@@ -53,6 +54,7 @@ const[menuOpen, setMenuOpen] = useState(false);
               pressProcessName={isPressProcessName}
             
             />}</div>
+            <div className="btn-sign-out"><button onClick={() => firebaseConfig.auth().signOut()}>Sign out</button></div>
 
         </div>
     )

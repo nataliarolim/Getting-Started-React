@@ -14,7 +14,7 @@ const UFEFirstPage = () =>{
         <div >
             <Header/>
             <MiddleMenu openProcessName={isOpenProcessName}
-            isOpenProcess={openProcess} />    
+            isOpenProcess={openProcess} />  
             {!openProcess && <PieChart />}        
         </div>
     )
